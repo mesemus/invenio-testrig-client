@@ -1,0 +1,202 @@
+[
+  {
+    "hash": "1023e302",
+    "message": "feat(search): add overridable title"
+  },
+  {
+    "hash": "b9fe1b5d",
+    "message": "fix(ui): show link validation error msgs"
+  },
+  {
+    "hash": "cd569aa7",
+    "message": "config: remove unused APP_RDM_RECORDS_EXPORT_URL config"
+  },
+  {
+    "hash": "98b22eb2",
+    "message": "fix: optionally chain user in RecordManagement.recordOwnerID to account for system records"
+  },
+  {
+    "hash": "ad950730",
+    "message": "\ud83d\udce6 release: v15.0.0b3.dev1"
+  },
+  {
+    "hash": "cf5d08dc",
+    "message": "chore(deps-dev): bump brace-expansion"
+  },
+  {
+    "hash": "12806ed0",
+    "message": "fix: migrate role ids to names across relevant tables w/ new constraints"
+  },
+  {
+    "hash": "337be050",
+    "message": "feat(upgrade): migrate role ids to names patch"
+  },
+  {
+    "hash": "53d76b0a",
+    "message": "fix(config): update deprecated CACHE_TYPE value (#3558)"
+  },
+  {
+    "hash": "773633e8",
+    "message": "\ud83d\udce6 release: v15.0.0b3.dev0"
+  },
+  {
+    "hash": "3098bf66",
+    "message": "chore(deps): bump invenio-rdm-records to v35.x"
+  },
+  {
+    "hash": "311b0e4b",
+    "message": "fix(request_ui): properly fetch subcommunity checks"
+  },
+  {
+    "hash": "557fc660",
+    "message": "fix(requests): pass community_id to get_runs"
+  },
+  {
+    "hash": "9c335a99",
+    "message": "feat(requests): added endpoint to trigger rerunning a check"
+  },
+  {
+    "hash": "e95f276c",
+    "message": "feat(ui): add anchor for active tab across page reloads"
+  },
+  {
+    "hash": "547f814f",
+    "message": "views: added comunity slug in request render template"
+  },
+  {
+    "hash": "3c214b84",
+    "message": "feat(checks): add subcommunity checks tab"
+  },
+  {
+    "hash": "ab9a0954",
+    "message": "release: v15.0.0b2.dev1"
+  },
+  {
+    "hash": "4616fdc9",
+    "message": "feat(search): add overridable ids for result item labels"
+  },
+  {
+    "hash": "35ad3b9e",
+    "message": "previewer: enable ZIP preview for draft records"
+  },
+  {
+    "hash": "700995a9",
+    "message": "fix(theme): keep details-list custom field links inline"
+  },
+  {
+    "hash": "fb417c36",
+    "message": "fix(administration): role ui depends on groups"
+  },
+  {
+    "hash": "ddaca69d",
+    "message": "fix(build): include mo files"
+  },
+  {
+    "hash": "0af3e2d3",
+    "message": "chore(v14/migration): restructure script"
+  },
+  {
+    "hash": "400d7290",
+    "message": "config: fix citation styles for Vancouver and Chicago with csl 1.0.2"
+  },
+  {
+    "hash": "9bec43d5",
+    "message": "fix(creatibutors): add selector for modal close button"
+  },
+  {
+    "hash": "8a772bef",
+    "message": "release: v15.0.0b2.dev0"
+  },
+  {
+    "hash": "df6e4555",
+    "message": "fix(creatibuors.html): normalize search and clean-up CSS classes"
+  },
+  {
+    "hash": "6c81ba58",
+    "message": "feat(Creatibutors): landing-page show-all modal with searching   * On the record landing page, long author/contributor lists show \"et al.\" with a searchable modal instead of rendering every name inline.   * Pass creatibutors_inline_list_threshold and creatibutors_render_batch_size from deposits.py into the deposit form"
+  },
+  {
+    "hash": "59c4978e",
+    "message": "fix: unify command with documentation"
+  },
+  {
+    "hash": "7c6a6311",
+    "message": "fix: adding server default for system_created"
+  },
+  {
+    "hash": "da6e1a74",
+    "message": "fix: migration step for removal of user_id column from the transaction table"
+  },
+  {
+    "hash": "74cb8f03",
+    "message": "Apply suggestion from @yarikoptic"
+  },
+  {
+    "hash": "c3b3406a",
+    "message": "Create SECURITY.md"
+  },
+  {
+    "hash": "362aa603",
+    "message": "files: improve external file size display"
+  },
+  {
+    "hash": "7839ba47",
+    "message": "release: v15.0.0b1.dev0"
+  },
+  {
+    "hash": "730cdb26",
+    "message": "chore(setup): migrate from setuptools to hatchling"
+  },
+  {
+    "hash": "3cc245d1",
+    "message": "fix(admin): update edit roles UI (#3502)"
+  },
+  {
+    "hash": "4e2fc9bd",
+    "message": "chore(migration): add request parent for commenting"
+  },
+  {
+    "hash": "f631eb69",
+    "message": "chore(migration): replace print with secho"
+  },
+  {
+    "hash": "0829dc24",
+    "message": "fix(admin): show clear error in View Changes modal on 403"
+  },
+  {
+    "hash": "f18b106a",
+    "message": "chore(setup): bump dependencies"
+  },
+  {
+    "hash": "3acff21a",
+    "message": "chore(git-blame): ignore the SPDX license header commit"
+  },
+  {
+    "hash": "339e3d4b",
+    "message": "chore(licenses): update license headers to use SPDX"
+  },
+  {
+    "hash": "4b1507bb",
+    "message": "chore(setup): bump dependencies"
+  },
+  {
+    "hash": "1c51a918",
+    "message": "refactor(views): Move get_record_requests to RecordCommunitiesService"
+  },
+  {
+    "hash": "6e3a62bf",
+    "message": "release: v15.0.0b0.dev0"
+  },
+  {
+    "hash": "ccdc5e68",
+    "message": "release: v14.0.0b11.dev4"
+  },
+  {
+    "hash": "992fbaf2",
+    "message": "chore(setup): bump dependencies"
+  },
+  {
+    "hash": "40b950ea",
+    "message": "feat(records): deposit form compatibility with per-record-version review requests"
+  }
+]

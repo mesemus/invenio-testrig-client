@@ -1,0 +1,202 @@
+[
+  {
+    "hash": "825de02e",
+    "message": "fix(custom-fields): add correct landing page search attribute"
+  },
+  {
+    "hash": "3cbe48b9",
+    "message": "fix(quota): hide labels in narrow bars"
+  },
+  {
+    "hash": "235b5437",
+    "message": "feat(quota): refactor quota management logic"
+  },
+  {
+    "hash": "653f7a5d",
+    "message": "fix(access): retain expiry on link updates"
+  },
+  {
+    "hash": "fb25009c",
+    "message": "feat(translations): add Swedish translations for date, relation, and resource types"
+  },
+  {
+    "hash": "706bf649",
+    "message": "release: v35.0.2"
+  },
+  {
+    "hash": "8703a7e7",
+    "message": "change(components): preserve internal note"
+  },
+  {
+    "hash": "f2fc19e5",
+    "message": "release: v35.0.1"
+  },
+  {
+    "hash": "356864d6",
+    "message": "feat(record_community_service): rely on request permission to return community requests * change the logic from who can review a record to who can read the community requests   related to that record. That enables reviewers added to a request to access these   requests in the record landing page via the \"View comments\" button"
+  },
+  {
+    "hash": "36ab3076",
+    "message": "fix: update crossref serializer fixture"
+  },
+  {
+    "hash": "78b139ec",
+    "message": "\ud83d\udce6 release: v35.0.0"
+  },
+  {
+    "hash": "2da23d53",
+    "message": "chore(deps): bump invenio-checks to v12.x"
+  },
+  {
+    "hash": "ab45dab6",
+    "message": "fix(checks): Define CheckTarget for record"
+  },
+  {
+    "hash": "2ad1dece",
+    "message": "fix(checks): explicitly add target_type"
+  },
+  {
+    "hash": "3e77c094",
+    "message": "\ud83d\udce6 release: v34.1.0"
+  },
+  {
+    "hash": "03816424",
+    "message": "fix(files): extract metadata after draft publication"
+  },
+  {
+    "hash": "d0b1b46c",
+    "message": "tests: update citation for bug fixes in citeproc-py 0.10.7"
+  },
+  {
+    "hash": "1f23bb9e",
+    "message": "fix(file-modification): handle validation errors"
+  },
+  {
+    "hash": "2ed08b03",
+    "message": "release: v34.0.1"
+  },
+  {
+    "hash": "b7cf9652",
+    "message": "feat(quota): implement policy evaluation for allowing users"
+  },
+  {
+    "hash": "fb985567",
+    "message": "fix(quota): don't cast record id to int"
+  },
+  {
+    "hash": "304a0d4c",
+    "message": "fix(deposit-ui): enforce file count and storage quotas in Uppy uploader"
+  },
+  {
+    "hash": "351110d4",
+    "message": "fix(uppy): keep failed uploads in dashboard on complete"
+  },
+  {
+    "hash": "5b30f126",
+    "message": "fix(build): include mo files"
+  },
+  {
+    "hash": "3c89e374",
+    "message": "bump commonmeta version"
+  },
+  {
+    "hash": "572bee9a",
+    "message": "add test"
+  },
+  {
+    "hash": "b0731371",
+    "message": "fix: add IsVersionOf relations to concept doi in crossref serializer"
+  },
+  {
+    "hash": "ebdb3158",
+    "message": "mappings: disable draft geometry doc values"
+  },
+  {
+    "hash": "925bad39",
+    "message": "fix(awards): drop organizations from funding award relation"
+  },
+  {
+    "hash": "1e8b9ac6",
+    "message": "fix(creatibutors): only accept txt files"
+  },
+  {
+    "hash": "7caf8e87",
+    "message": "release: v34.0.0"
+  },
+  {
+    "hash": "89a0289b",
+    "message": "fix(CreatibutorsFieldItem): Trigger update via context"
+  },
+  {
+    "hash": "7c0898f2",
+    "message": "fix(CreatibutorsInlinePanel): Move props to CreatibutorsItemContext"
+  },
+  {
+    "hash": "47c783eb",
+    "message": "fix(CreatibutorsFileModal): Simplify components and CSS rendering"
+  },
+  {
+    "hash": "ebd21143",
+    "message": "fix(CreatibutorsInlinePanel): Optimize re-render condition"
+  },
+  {
+    "hash": "0ee8ffb9",
+    "message": "feat(Creatibutors): add inline scrolling and file importing in deposit"
+  },
+  {
+    "hash": "44813dbb",
+    "message": "fix: fixed isParentAlreadyPublished not working on /new"
+  },
+  {
+    "hash": "30e0237a",
+    "message": "fix(alembic): alter index safely"
+  },
+  {
+    "hash": "fb953b29",
+    "message": "release: v33.3.0"
+  },
+  {
+    "hash": "295f5f19",
+    "message": "feat: add support for crossref schema 5.5 via commonmeta-py"
+  },
+  {
+    "hash": "f44206a1",
+    "message": "fix(iiif): add handlers for more possible IIIF errors"
+  },
+  {
+    "hash": "50f9aa39",
+    "message": "fix(iiif): validate expected shape of identifiers"
+  },
+  {
+    "hash": "1ebca19a",
+    "message": "fix(tests): add tests for invalid identifiers in IIIF endpoints"
+  },
+  {
+    "hash": "916319f9",
+    "message": "release: v33.2.0"
+  },
+  {
+    "hash": "69166b71",
+    "message": "feat(ui): make NewVersionButton overridable"
+  },
+  {
+    "hash": "04cd3161",
+    "message": "fix(citation): use harvard-cite-them-right and setup _extras in tests"
+  },
+  {
+    "hash": "93ef5382",
+    "message": "tests: update citation string for csl 1.0.2"
+  },
+  {
+    "hash": "994313e7",
+    "message": "fix(entity_resolvers): Fix ghost_record for drafts on submission"
+  },
+  {
+    "hash": "fa06369d",
+    "message": "fix(checks): resolve section labels"
+  },
+  {
+    "hash": "d1cb249d",
+    "message": "fix(checks): Removed redundant check"
+  }
+]

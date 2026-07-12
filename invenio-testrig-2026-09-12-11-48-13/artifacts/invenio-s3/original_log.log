@@ -1,0 +1,49 @@
+ minio Pulling 
+ minio Error pull access denied for minio/minio, repository does not exist or may require 'docker login': denied: requested access to the resource is denied
+Error response from daemon: pull access denied for minio/minio, repository does not exist or may require 'docker login': denied: requested access to the resource is denied
+Traceback (most recent call last):
+  File "/home/runner/work/invenio-testrig-client/invenio-testrig-client/workdir/tests/invenio-s3/original/.venv/bin/docker-services-cli", line 10, in <module>
+    sys.exit(cli())
+             ~~~^^
+  File "/home/runner/work/invenio-testrig-client/invenio-testrig-client/workdir/tests/invenio-s3/original/.venv/lib/python3.14/site-packages/click/core.py", line 1631, in __call__
+    return self.main(*args, **kwargs)
+           ~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/invenio-testrig-client/invenio-testrig-client/workdir/tests/invenio-s3/original/.venv/lib/python3.14/site-packages/click/core.py", line 1552, in main
+    rv = self.invoke(ctx)
+  File "/home/runner/work/invenio-testrig-client/invenio-testrig-client/workdir/tests/invenio-s3/original/.venv/lib/python3.14/site-packages/click/core.py", line 2032, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+                           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/home/runner/work/invenio-testrig-client/invenio-testrig-client/workdir/tests/invenio-s3/original/.venv/lib/python3.14/site-packages/click/core.py", line 1415, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/invenio-testrig-client/invenio-testrig-client/workdir/tests/invenio-s3/original/.venv/lib/python3.14/site-packages/click/core.py", line 910, in invoke
+    return callback(*args, **kwargs)
+  File "/home/runner/work/invenio-testrig-client/invenio-testrig-client/workdir/tests/invenio-s3/original/.venv/lib/python3.14/site-packages/docker_services_cli/cli.py", line 82, in collect_services_by_type
+    click.get_current_context().invoke(func, *args, **kwargs)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/invenio-testrig-client/invenio-testrig-client/workdir/tests/invenio-s3/original/.venv/lib/python3.14/site-packages/click/core.py", line 910, in invoke
+    return callback(*args, **kwargs)
+  File "/home/runner/work/invenio-testrig-client/invenio-testrig-client/workdir/tests/invenio-s3/original/.venv/lib/python3.14/site-packages/docker_services_cli/cli.py", line 46, in _print_env_output
+    click.get_current_context().invoke(func, *args, **kwargs)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/invenio-testrig-client/invenio-testrig-client/workdir/tests/invenio-s3/original/.venv/lib/python3.14/site-packages/click/core.py", line 910, in invoke
+    return callback(*args, **kwargs)
+  File "/home/runner/work/invenio-testrig-client/invenio-testrig-client/workdir/tests/invenio-s3/original/.venv/lib/python3.14/site-packages/click/decorators.py", line 46, in new_func
+    return f(get_current_context().obj, *args, **kwargs)
+  File "/home/runner/work/invenio-testrig-client/invenio-testrig-client/workdir/tests/invenio-s3/original/.venv/lib/python3.14/site-packages/docker_services_cli/cli.py", line 180, in up
+    services_up(
+    ~~~~~~~~~~~^
+        services=normalized_services,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+        verbose=services_ctx.verbose,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/runner/work/invenio-testrig-client/invenio-testrig-client/workdir/tests/invenio-s3/original/.venv/lib/python3.14/site-packages/docker_services_cli/services.py", line 215, in services_up
+    check_call(command)
+    ~~~~~~~~~~^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.14.2/x64/lib/python3.14/subprocess.py", line 419, in check_call
+    raise CalledProcessError(retcode, cmd)
+subprocess.CalledProcessError: Command '['docker', 'compose', '--file', '/home/runner/work/invenio-testrig-client/invenio-testrig-client/workdir/tests/invenio-s3/original/.venv/lib/python3.14/site-packages/docker_services_cli/docker-services.yml', 'up', '-d', 'minio']' returned non-zero exit status 1.
+./run-tests.sh: eval: line 42: unexpected EOF while looking for matching `''

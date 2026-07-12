@@ -1,0 +1,79 @@
+{
+  "dependencies": [],
+  "package": {
+    "github_entry": {
+      "_extra": {},
+      "default_branch": null,
+      "exclude": [
+        "invenio-xrootd",
+        "invenio-swh"
+      ],
+      "extras": [
+        "tests",
+        "opensearch2",
+        "s3",
+        "devs",
+        "s3fs",
+        "oaipmh",
+        "rdf",
+        "sparql",
+        "postgresql",
+        "admin"
+      ],
+      "freeze": [
+        "setuptools<82.0.0"
+      ],
+      "include": [
+        "invenio-.*",
+        "pytest-invenio",
+        "citeproc-py-styles"
+      ],
+      "install": [],
+      "org": "inveniosoftware",
+      "package_map": {},
+      "slow_packages": {
+        "invenio-rdm-records": [
+          "tests/resources/test_iiif_image_api.py",
+          "tests/resources/test_resources_review.py",
+          "tests/services/test_rdm_service.py"
+        ]
+      },
+      "test": [
+        "./run-tests.sh"
+      ]
+    },
+    "patched_reference": null,
+    "patches": [],
+    "reference": {
+      "actual_version": "35.0.2",
+      "base": null,
+      "branch": "v35.0.2",
+      "commit": "706bf6495ca9ae42d5063a7218c91e0ffcd34b06",
+      "commits_from_version": [],
+      "org": "inveniosoftware",
+      "package": "invenio-rdm-records",
+      "pr": null,
+      "pr_info": null,
+      "repo": "invenio-rdm-records"
+    },
+    "unpatched_reference": {
+      "actual_version": "35.0.2",
+      "base": null,
+      "branch": null,
+      "commit": "825de02e02d5854bee6b1a179fa666069994384f",
+      "commits_from_version": [
+        "fb25009c4a8b3aabb57d946a32da7a49d028b827",
+        "653f7a5d1b377875c781d09b816de018f3d3e5cf",
+        "235b543716f599c0cff20e846c879fe72f4e84dd",
+        "3cbe48b901fc4b09f359649e09fd9c7438d78fb2",
+        "825de02e02d5854bee6b1a179fa666069994384f"
+      ],
+      "org": "inveniosoftware",
+      "package": "invenio-rdm-records",
+      "pr": null,
+      "pr_info": null,
+      "repo": "invenio-rdm-records"
+    }
+  },
+  "status": "skipped"
+}
