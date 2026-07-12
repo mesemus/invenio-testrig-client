@@ -1,0 +1,739 @@
+extracting messages from invenio_users_resources/__init__.py (encoding="utf-8")
+extracting messages from invenio_users_resources/config.py (encoding="utf-8")
+extracting messages from invenio_users_resources/entity_resolvers.py (encoding="utf-8")
+extracting messages from invenio_users_resources/ext.py (encoding="utf-8")
+extracting messages from invenio_users_resources/forms.py (encoding="utf-8")
+extracting messages from invenio_users_resources/models.py (encoding="utf-8")
+extracting messages from invenio_users_resources/permissions.py (encoding="utf-8")
+extracting messages from invenio_users_resources/proxies.py (encoding="utf-8")
+extracting messages from invenio_users_resources/utils.py (encoding="utf-8")
+extracting messages from invenio_users_resources/views.py (encoding="utf-8")
+extracting messages from invenio_users_resources/notifications/__init__.py (encoding="utf-8")
+extracting messages from invenio_users_resources/notifications/filters.py (encoding="utf-8")
+extracting messages from invenio_users_resources/notifications/generators.py (encoding="utf-8")
+extracting messages from invenio_users_resources/records/__init__.py (encoding="utf-8")
+extracting messages from invenio_users_resources/records/api.py (encoding="utf-8")
+extracting messages from invenio_users_resources/records/hooks.py (encoding="utf-8")
+extracting messages from invenio_users_resources/records/models.py (encoding="utf-8")
+extracting messages from invenio_users_resources/records/dumpers/__init__.py (encoding="utf-8")
+extracting messages from invenio_users_resources/records/dumpers/email.py (encoding="utf-8")
+extracting messages from invenio_users_resources/records/mappings/__init__.py (encoding="utf-8")
+extracting messages from invenio_users_resources/records/mappings/os-v1/__init__.py (encoding="utf-8")
+extracting messages from invenio_users_resources/records/mappings/os-v2/__init__.py (encoding="utf-8")
+extracting messages from invenio_users_resources/records/mappings/v7/__init__.py (encoding="utf-8")
+extracting messages from invenio_users_resources/records/systemfields/__init__.py (encoding="utf-8")
+extracting messages from invenio_users_resources/resources/__init__.py (encoding="utf-8")
+extracting messages from invenio_users_resources/resources/domains/__init__.py (encoding="utf-8")
+extracting messages from invenio_users_resources/resources/domains/config.py (encoding="utf-8")
+extracting messages from invenio_users_resources/resources/domains/resource.py (encoding="utf-8")
+extracting messages from invenio_users_resources/resources/groups/__init__.py (encoding="utf-8")
+extracting messages from invenio_users_resources/resources/groups/config.py (encoding="utf-8")
+extracting messages from invenio_users_resources/resources/groups/errors.py (encoding="utf-8")
+extracting messages from invenio_users_resources/resources/groups/resource.py (encoding="utf-8")
+extracting messages from invenio_users_resources/resources/users/__init__.py (encoding="utf-8")
+extracting messages from invenio_users_resources/resources/users/config.py (encoding="utf-8")
+extracting messages from invenio_users_resources/resources/users/errors.py (encoding="utf-8")
+extracting messages from invenio_users_resources/resources/users/resource.py (encoding="utf-8")
+extracting messages from invenio_users_resources/services/__init__.py (encoding="utf-8")
+extracting messages from invenio_users_resources/services/common.py (encoding="utf-8")
+extracting messages from invenio_users_resources/services/generators.py (encoding="utf-8")
+extracting messages from invenio_users_resources/services/params.py (encoding="utf-8")
+extracting messages from invenio_users_resources/services/permissions.py (encoding="utf-8")
+extracting messages from invenio_users_resources/services/results.py (encoding="utf-8")
+extracting messages from invenio_users_resources/services/schemas.py (encoding="utf-8")
+extracting messages from invenio_users_resources/services/domains/__init__.py (encoding="utf-8")
+extracting messages from invenio_users_resources/services/domains/components.py (encoding="utf-8")
+extracting messages from invenio_users_resources/services/domains/config.py (encoding="utf-8")
+extracting messages from invenio_users_resources/services/domains/facets.py (encoding="utf-8")
+extracting messages from invenio_users_resources/services/domains/service.py (encoding="utf-8")
+extracting messages from invenio_users_resources/services/domains/tasks.py (encoding="utf-8")
+extracting messages from invenio_users_resources/services/groups/__init__.py (encoding="utf-8")
+extracting messages from invenio_users_resources/services/groups/config.py (encoding="utf-8")
+extracting messages from invenio_users_resources/services/groups/facets.py (encoding="utf-8")
+extracting messages from invenio_users_resources/services/groups/results.py (encoding="utf-8")
+extracting messages from invenio_users_resources/services/groups/service.py (encoding="utf-8")
+extracting messages from invenio_users_resources/services/groups/tasks.py (encoding="utf-8")
+extracting messages from invenio_users_resources/services/users/__init__.py (encoding="utf-8")
+extracting messages from invenio_users_resources/services/users/config.py (encoding="utf-8")
+extracting messages from invenio_users_resources/services/users/facets.py (encoding="utf-8")
+extracting messages from invenio_users_resources/services/users/lock.py (encoding="utf-8")
+extracting messages from invenio_users_resources/services/users/results.py (encoding="utf-8")
+extracting messages from invenio_users_resources/services/users/search_params.py (encoding="utf-8")
+extracting messages from invenio_users_resources/services/users/service.py (encoding="utf-8")
+extracting messages from invenio_users_resources/services/users/tasks.py (encoding="utf-8")
+extracting messages from invenio_users_resources/templates/security/email/new_user_via_admin.html (encoding="utf-8")
+extracting messages from invenio_users_resources/templates/semantic-ui/invenio_users_resources/settings/notifications.html (encoding="utf-8")
+writing PO template file to /dev/null
+ Image redis:7 Pulling 
+ Image opensearchproject/opensearch:3.9.0 Pulling 
+ Image postgres:18 Pulling 
+ Image rabbitmq:3-management Pulling 
+ 37fb86c2a767 Pulling fs layer 0B
+ dad2840f1c78 Pulling fs layer 0B
+ 8c4393616907 Pulling fs layer 0B
+ 62f716619e2e Pulling fs layer 0B
+ 9f5cf0b65151 Pulling fs layer 0B
+ 335cde62193e Pulling fs layer 0B
+ 0fbd9729f0d0 Pulling fs layer 0B
+ 1837bb99b431 Pulling fs layer 0B
+ 3e6fbba58ab6 Pulling fs layer 0B
+ 09b93095874b Pulling fs layer 0B
+ 00f4238ff416 Pulling fs layer 0B
+ 7b5527ff7489 Pulling fs layer 0B
+ b978112db001 Pulling fs layer 0B
+ dd051e1b8c92 Pulling fs layer 0B
+ 94e14de0ef29 Pulling fs layer 0B
+ 1af2d1c5b5d7 Pulling fs layer 0B
+ e68f2e5c8d50 Pulling fs layer 0B
+ f43705d71c46 Pulling fs layer 0B
+ 4f4fb700ef54 Pulling fs layer 0B
+ d686b50ce172 Pulling fs layer 0B
+ f4e7f62f4b80 Pulling fs layer 0B
+ efa05c660812 Pulling fs layer 0B
+ 20043066d3d5 Pulling fs layer 0B
+ 14e6209d5fa8 Pulling fs layer 0B
+ 7084ac8f4ab6 Pulling fs layer 0B
+ d63c4408fdb7 Pulling fs layer 0B
+ beb0d870d438 Pulling fs layer 0B
+ 5e1c03b67a78 Pulling fs layer 0B
+ 3fadc669ef11 Pulling fs layer 0B
+ 9d1f594c66dc Pulling fs layer 0B
+ 4f4fb700ef54 Pulling fs layer 0B
+ fe7bbed45059 Pulling fs layer 0B
+ e5604524ac8c Pulling fs layer 0B
+ 46f4de2e4236 Pulling fs layer 0B
+ b14c48cb507d Pulling fs layer 0B
+ 0189f02e683f Pulling fs layer 0B
+ 4f4fb700ef54 Already exists 0B
+ 4f4fb700ef54 Already exists 0B
+ b14c48cb507d Downloading 3.146MB
+ 94e14de0ef29 Download complete 0B
+ 335cde62193e Download complete 0B
+ 37fb86c2a767 Downloading 7.34MB
+ 0fbd9729f0d0 Download complete 0B
+ 14e6209d5fa8 Download complete 0B
+ e68f2e5c8d50 Download complete 0B
+ dd051e1b8c92 Downloading 4.194MB
+ 9d1f594c66dc Download complete 0B
+ e5604524ac8c Downloading 228B
+ 5e1c03b67a78 Download complete 0B
+ 3fadc669ef11 Downloading 2.097MB
+ b14c48cb507d Downloading 15.73MB
+ 1af2d1c5b5d7 Download complete 0B
+ 3e6fbba58ab6 Download complete 0B
+ 7b5527ff7489 Downloading 6.291MB
+ b978112db001 Download complete 0B
+ 00f4238ff416 Download complete 0B
+ 37fb86c2a767 Downloading 20.97MB
+ efa05c660812 Download complete 0B
+ 62f716619e2e Download complete 0B
+ 09b93095874b Downloading 2.097MB
+ dad2840f1c78 Downloading 3.146MB
+ 8c4393616907 Downloading 1.258MB
+ f4e7f62f4b80 Download complete 0B
+ 1837bb99b431 Download complete 0B
+ 9f5cf0b65151 Download complete 0B
+ dd051e1b8c92 Downloading 10.49MB
+ e5604524ac8c Download complete 0B
+ 46f4de2e4236 Downloading 5.243MB
+ b14c48cb507d Downloading 22.02MB
+ 0189f02e683f Downloading 4.194MB
+ 7b5527ff7489 Download complete 0B
+ d63c4408fdb7 Downloading 5.243MB
+ 20043066d3d5 Downloading 5.243MB
+ 3fadc669ef11 Downloading 8.389MB
+ d686b50ce172 Downloading 4.194MB
+ 37fb86c2a767 Downloading 27.26MB
+ fe7bbed45059 Download complete 0B
+ 09b93095874b Download complete 0B
+ dad2840f1c78 Downloading 9.437MB
+ 8c4393616907 Download complete 0B
+ d686b50ce172 Downloading 9.437MB
+ d63c4408fdb7 Downloading 10.49MB
+ 20043066d3d5 Downloading 10.49MB
+ ed4e4f8e1aa3 Downloading 1.049MB
+ dd051e1b8c92 Downloading 15.73MB
+ 0189f02e683f Download complete 0B
+ 46f4de2e4236 Downloading 10.49MB
+ b14c48cb507d Downloading 26.21MB
+ 37fb86c2a767 Download complete 0B
+ dad2840f1c78 Downloading 14.68MB
+ beb0d870d438 Download complete 0B
+ 3fadc669ef11 Downloading 13.63MB
+ 997e218b00c5 Download complete 0B
+ 37fb86c2a767 Extracting 1B
+ 46f4de2e4236 Downloading 13.63MB
+ b14c48cb507d Downloading 30.41MB
+ f43705d71c46 Downloading 3.146MB
+ 713b18672f38 Download complete 0B
+ dd051e1b8c92 Downloading 18.87MB
+ dad2840f1c78 Downloading 17.83MB
+ 26d06a935726 Download complete 0B
+ ed4e4f8e1aa3 Downloading 5.243MB
+ 20043066d3d5 Downloading 14.68MB
+ 3fadc669ef11 Downloading 17.83MB
+ 16ef6b12768c Download complete 0B
+ 7084ac8f4ab6 Downloading 3.146MB
+ d686b50ce172 Download complete 0B
+ 7ec4c696b8bb Download complete 0B
+ d63c4408fdb7 Downloading 14.68MB
+ 37fb86c2a767 Extracting 1B
+ 46f4de2e4236 Downloading 20.97MB
+ b14c48cb507d Downloading 36.7MB
+ d63c4408fdb7 Downloading 21.31MB
+ 20043066d3d5 Downloading 20.97MB
+ 3fadc669ef11 Downloading 24.12MB
+ dd051e1b8c92 Downloading 26.21MB
+ ed4e4f8e1aa3 Download complete 0B
+ dad2840f1c78 Downloading 25.17MB
+ f43705d71c46 Downloading 9.437MB
+ 7084ac8f4ab6 Download complete 0B
+ 37fb86c2a767 Extracting 1B
+ 46f4de2e4236 Downloading 28.31MB
+ b14c48cb507d Downloading 45.09MB
+ f43705d71c46 Download complete 0B
+ dd051e1b8c92 Download complete 0B
+ dad2840f1c78 Downloading 33.55MB
+ 20043066d3d5 Downloading 29.72MB
+ 3fadc669ef11 Downloading 32.51MB
+ d63c4408fdb7 Download complete 0B
+ dd051e1b8c92 Extracting 1B
+ 37fb86c2a767 Extracting 1B
+ b14c48cb507d Downloading 54.57MB
+ 46f4de2e4236 Downloading 40.89MB
+ 20043066d3d5 Download complete 0B
+ 3fadc669ef11 Downloading 43.48MB
+ dad2840f1c78 Downloading 46.14MB
+ dd051e1b8c92 Extracting 1B
+ 20043066d3d5 Extracting 1B
+ 37fb86c2a767 Extracting 1B
+ dad2840f1c78 Downloading 61.87MB
+ 46f4de2e4236 Downloading 55.57MB
+ 3fadc669ef11 Download complete 0B
+ b14c48cb507d Download complete 0B
+ b14c48cb507d Extracting 1B
+ dd051e1b8c92 Extracting 1B
+ 20043066d3d5 Extracting 1B
+ 37fb86c2a767 Extracting 1B
+ 46f4de2e4236 Downloading 71.3MB
+ dad2840f1c78 Downloading 77.59MB
+ b14c48cb507d Extracting 1B
+ dd051e1b8c92 Extracting 1B
+ 37fb86c2a767 Extracting 1B
+ 20043066d3d5 Extracting 1B
+ 46f4de2e4236 Downloading 87.03MB
+ dad2840f1c78 Downloading 92.27MB
+ b14c48cb507d Extracting 1B
+ 20043066d3d5 Extracting 1B
+ dd051e1b8c92 Extracting 1B
+ 37fb86c2a767 Extracting 1B
+ 46f4de2e4236 Downloading 101.7MB
+ dad2840f1c78 Downloading 104.9MB
+ b14c48cb507d Extracting 1B
+ dd051e1b8c92 Extracting 1B
+ 20043066d3d5 Extracting 1B
+ 37fb86c2a767 Extracting 1B
+ 46f4de2e4236 Downloading 118.5MB
+ dad2840f1c78 Downloading 121.4MB
+ b14c48cb507d Extracting 1B
+ dd051e1b8c92 Extracting 1B
+ 20043066d3d5 Extracting 1B
+ 37fb86c2a767 Extracting 1B
+ 46f4de2e4236 Downloading 137.4MB
+ dad2840f1c78 Download complete 0B
+ dd051e1b8c92 Extracting 1B
+ b14c48cb507d Extracting 1B
+ 20043066d3d5 Extracting 1B
+ 37fb86c2a767 Extracting 1B
+ 46f4de2e4236 Downloading 160.4MB
+ b14c48cb507d Extracting 1B
+ dd051e1b8c92 Extracting 1B
+ 20043066d3d5 Extracting 1B
+ 37fb86c2a767 Extracting 2B
+ 46f4de2e4236 Downloading 182.5MB
+ b14c48cb507d Extracting 1B
+ dd051e1b8c92 Extracting 1B
+ 20043066d3d5 Extracting 1B
+ 37fb86c2a767 Extracting 2B
+ 46f4de2e4236 Downloading 207.6MB
+ b14c48cb507d Extracting 1B
+ 20043066d3d5 Extracting 1B
+ dd051e1b8c92 Extracting 1B
+ 37fb86c2a767 Extracting 2B
+ 46f4de2e4236 Downloading 226.5MB
+ 0fbd9729f0d0 Pull complete 0B
+ b14c48cb507d Extracting 1B
+ dd051e1b8c92 Extracting 2B
+ 09b93095874b Extracting 1B
+ 20043066d3d5 Extracting 1B
+ 37fb86c2a767 Pull complete 0B
+ 46f4de2e4236 Downloading 254.8MB
+ b14c48cb507d Extracting 2B
+ 20043066d3d5 Extracting 2B
+ dd051e1b8c92 Extracting 2B
+ 09b93095874b Extracting 1B
+ 46f4de2e4236 Downloading 278.9MB
+ b14c48cb507d Extracting 2B
+ dd051e1b8c92 Extracting 2B
+ 20043066d3d5 Extracting 2B
+ 09b93095874b Extracting 1B
+ 46f4de2e4236 Downloading 304.1MB
+ b14c48cb507d Extracting 2B
+ dd051e1b8c92 Extracting 2B
+ 09b93095874b Extracting 1B
+ 20043066d3d5 Extracting 2B
+ 46f4de2e4236 Downloading 326.1MB
+ 94e14de0ef29 Pull complete 0B
+ e68f2e5c8d50 Extracting 1B
+ dd051e1b8c92 Pull complete 0B
+ b14c48cb507d Extracting 2B
+ 20043066d3d5 Pull complete 0B
+ 7b5527ff7489 Extracting 1B
+ 3fadc669ef11 Extracting 1B
+ 09b93095874b Pull complete 0B
+ 8c4393616907 Pull complete 0B
+ 46f4de2e4236 Downloading 346MB
+ e68f2e5c8d50 Pull complete 0B
+ b14c48cb507d Extracting 2B
+ f43705d71c46 Extracting 1B
+ 3fadc669ef11 Extracting 1B
+ 7b5527ff7489 Extracting 1B
+ 46f4de2e4236 Downloading 366MB
+ f43705d71c46 Extracting 1B
+ b14c48cb507d Extracting 2B
+ 3fadc669ef11 Extracting 1B
+ 7b5527ff7489 Extracting 1B
+ 46f4de2e4236 Downloading 383.8MB
+ f43705d71c46 Extracting 1B
+ b14c48cb507d Extracting 2B
+ 3fadc669ef11 Extracting 1B
+ 7b5527ff7489 Extracting 1B
+ 46f4de2e4236 Downloading 403.7MB
+ 335cde62193e Extracting 1B
+ f43705d71c46 Extracting 1B
+ b14c48cb507d Extracting 2B
+ 7b5527ff7489 Pull complete 0B
+ 3fadc669ef11 Extracting 1B
+ 46f4de2e4236 Downloading 426.8MB
+ 4f4fb700ef54 Pull complete 0B
+ 335cde62193e Pull complete 0B
+ 1af2d1c5b5d7 Pull complete 0B
+ 3e6fbba58ab6 Pull complete 0B
+ b978112db001 Pull complete 0B
+ f43705d71c46 Pull complete 0B
+ 3fadc669ef11 Extracting 1B
+ 9f5cf0b65151 Pull complete 0B
+ dad2840f1c78 Extracting 1B
+ b14c48cb507d Extracting 2B
+ Image redis:7 Pulled 
+ 46f4de2e4236 Downloading 443.5MB
+ dad2840f1c78 Extracting 1B
+ b14c48cb507d Extracting 2B
+ 3fadc669ef11 Extracting 1B
+ 46f4de2e4236 Downloading 462.4MB
+ dad2840f1c78 Extracting 1B
+ b14c48cb507d Extracting 2B
+ 3fadc669ef11 Extracting 1B
+ 46f4de2e4236 Downloading 485.5MB
+ dad2840f1c78 Extracting 1B
+ b14c48cb507d Extracting 3B
+ 3fadc669ef11 Extracting 1B
+ 46f4de2e4236 Downloading 514.9MB
+ b14c48cb507d Extracting 3B
+ dad2840f1c78 Extracting 1B
+ 3fadc669ef11 Extracting 1B
+ 46f4de2e4236 Downloading 533.7MB
+ dad2840f1c78 Extracting 1B
+ b14c48cb507d Extracting 3B
+ 3fadc669ef11 Extracting 1B
+ 46f4de2e4236 Downloading 559.9MB
+ dad2840f1c78 Extracting 1B
+ b14c48cb507d Extracting 3B
+ 3fadc669ef11 Extracting 2B
+ 46f4de2e4236 Downloading 579.9MB
+ dad2840f1c78 Extracting 1B
+ b14c48cb507d Extracting 3B
+ 7084ac8f4ab6 Extracting 1B
+ 3fadc669ef11 Pull complete 0B
+ 46f4de2e4236 Downloading 605MB
+ dad2840f1c78 Extracting 1B
+ 0189f02e683f Extracting 1B
+ b14c48cb507d Pull complete 0B
+ 7084ac8f4ab6 Extracting 1B
+ 46f4de2e4236 Downloading 629.1MB
+ dad2840f1c78 Extracting 1B
+ 0189f02e683f Extracting 1B
+ 7084ac8f4ab6 Extracting 1B
+ 46f4de2e4236 Downloading 661.7MB
+ dad2840f1c78 Extracting 1B
+ beb0d870d438 Extracting 1B
+ 0189f02e683f Pull complete 0B
+ 7084ac8f4ab6 Pull complete 0B
+ 46f4de2e4236 Downloading 693.1MB
+ dad2840f1c78 Extracting 2B
+ beb0d870d438 Pull complete 0B
+ fe7bbed45059 Pull complete 0B
+ d63c4408fdb7 Extracting 1B
+ 46f4de2e4236 Downloading 723.5MB
+ dad2840f1c78 Extracting 2B
+ d63c4408fdb7 Extracting 1B
+ 46f4de2e4236 Downloading 752.9MB
+ dad2840f1c78 Extracting 2B
+ d63c4408fdb7 Extracting 1B
+ 46f4de2e4236 Downloading 780.1MB
+ dad2840f1c78 Extracting 2B
+ d63c4408fdb7 Extracting 1B
+ 46f4de2e4236 Downloading 809.5MB
+ dad2840f1c78 Extracting 2B
+ d63c4408fdb7 Extracting 1B
+ 46f4de2e4236 Downloading 839.9MB
+ dad2840f1c78 Extracting 2B
+ 46f4de2e4236 Downloading 871.4MB
+ efa05c660812 Pull complete 0B
+ dad2840f1c78 Extracting 2B
+ d63c4408fdb7 Pull complete 0B
+ 46f4de2e4236 Downloading 902.8MB
+ 14e6209d5fa8 Pull complete 0B
+ 5e1c03b67a78 Pull complete 0B
+ f4e7f62f4b80 Pull complete 0B
+ d686b50ce172 Extracting 1B
+ dad2840f1c78 Extracting 2B
+ 46f4de2e4236 Downloading 929MB
+ d686b50ce172 Extracting 1B
+ dad2840f1c78 Extracting 2B
+ 46f4de2e4236 Downloading 960.5MB
+ d686b50ce172 Extracting 1B
+ dad2840f1c78 Extracting 2B
+ 46f4de2e4236 Downloading 988.8MB
+ d686b50ce172 Extracting 1B
+ dad2840f1c78 Extracting 3B
+ 46f4de2e4236 Downloading 1.021GB
+ dad2840f1c78 Extracting 3B
+ d686b50ce172 Pull complete 0B
+ Image rabbitmq:3-management Pulled 
+ 46f4de2e4236 Downloading 1.053GB
+ dad2840f1c78 Extracting 3B
+ 46f4de2e4236 Downloading 1.085GB
+ dad2840f1c78 Extracting 3B
+ 46f4de2e4236 Downloading 1.1GB
+ dad2840f1c78 Extracting 3B
+ 46f4de2e4236 Downloading 1.1GB
+ 46f4de2e4236 Downloading 1.1GB
+ 1837bb99b431 Extracting 1B
+ dad2840f1c78 Pull complete 0B
+ 46f4de2e4236 Downloading 1.1GB
+ 00f4238ff416 Pull complete 0B
+ 62f716619e2e Extracting 1B
+ 1837bb99b431 Pull complete 0B
+ 46f4de2e4236 Downloading 1.1GB
+ 62f716619e2e Pull complete 0B
+ Image postgres:18 Pulled 
+ 46f4de2e4236 Downloading 1.1GB
+ 46f4de2e4236 Downloading 1.1GB
+ 46f4de2e4236 Downloading 1.1GB
+ 46f4de2e4236 Downloading 1.1GB
+ 46f4de2e4236 Downloading 1.1GB
+ 46f4de2e4236 Downloading 1.1GB
+ 46f4de2e4236 Downloading 1.1GB
+ 46f4de2e4236 Downloading 1.1GB
+ 46f4de2e4236 Downloading 1.1GB
+ 46f4de2e4236 Downloading 1.1GB
+ 46f4de2e4236 Downloading 1.1GB
+ 46f4de2e4236 Downloading 1.1GB
+ 46f4de2e4236 Downloading 1.1GB
+ 46f4de2e4236 Downloading 1.1GB
+ 46f4de2e4236 Downloading 1.1GB
+ 46f4de2e4236 Downloading 1.1GB
+ 46f4de2e4236 Downloading 1.1GB
+ 46f4de2e4236 Downloading 1.1GB
+ 46f4de2e4236 Downloading 1.1GB
+ 46f4de2e4236 Downloading 1.1GB
+ 46f4de2e4236 Downloading 1.1GB
+ 46f4de2e4236 Downloading 1.1GB
+ 46f4de2e4236 Downloading 1.1GB
+ 46f4de2e4236 Downloading 1.1GB
+ 46f4de2e4236 Downloading 1.1GB
+ 46f4de2e4236 Downloading 1.1GB
+ 46f4de2e4236 Downloading 1.1GB
+ 46f4de2e4236 Downloading 1.1GB
+ 46f4de2e4236 Downloading 1.1GB
+ 46f4de2e4236 Downloading 1.1GB
+ 46f4de2e4236 Downloading 1.1GB
+ 46f4de2e4236 Downloading 1.1GB
+ 46f4de2e4236 Downloading 1.1GB
+ 46f4de2e4236 Downloading 1.1GB
+ 46f4de2e4236 Downloading 1.1GB
+ 46f4de2e4236 Downloading 1.1GB
+ 46f4de2e4236 Downloading 1.1GB
+ 46f4de2e4236 Downloading 1.1GB
+ 46f4de2e4236 Downloading 1.1GB
+ 46f4de2e4236 Downloading 1.1GB
+ 46f4de2e4236 Downloading 1.1GB
+ 46f4de2e4236 Downloading 1.1GB
+ 46f4de2e4236 Downloading 1.1GB
+ 46f4de2e4236 Downloading 1.1GB
+ 46f4de2e4236 Downloading 1.1GB
+ 46f4de2e4236 Downloading 1.1GB
+ 46f4de2e4236 Downloading 1.1GB
+ 46f4de2e4236 Downloading 1.1GB
+ 46f4de2e4236 Downloading 1.1GB
+ 46f4de2e4236 Downloading 1.1GB
+ 46f4de2e4236 Downloading 1.1GB
+ 46f4de2e4236 Download complete 0B
+ 46f4de2e4236 Extracting 1B
+ 46f4de2e4236 Extracting 1B
+ 46f4de2e4236 Extracting 1B
+ 46f4de2e4236 Extracting 1B
+ 46f4de2e4236 Extracting 1B
+ 46f4de2e4236 Extracting 1B
+ 46f4de2e4236 Extracting 1B
+ 46f4de2e4236 Extracting 1B
+ 46f4de2e4236 Extracting 1B
+ 46f4de2e4236 Extracting 1B
+ 46f4de2e4236 Extracting 1B
+ 46f4de2e4236 Extracting 2B
+ 46f4de2e4236 Extracting 2B
+ 46f4de2e4236 Extracting 2B
+ 46f4de2e4236 Extracting 2B
+ 46f4de2e4236 Extracting 2B
+ 46f4de2e4236 Extracting 2B
+ 46f4de2e4236 Extracting 2B
+ 46f4de2e4236 Extracting 2B
+ 46f4de2e4236 Extracting 2B
+ 46f4de2e4236 Extracting 2B
+ 46f4de2e4236 Extracting 3B
+ 46f4de2e4236 Extracting 3B
+ 46f4de2e4236 Extracting 3B
+ 46f4de2e4236 Extracting 3B
+ 46f4de2e4236 Extracting 3B
+ 46f4de2e4236 Extracting 3B
+ 46f4de2e4236 Extracting 3B
+ 46f4de2e4236 Extracting 3B
+ 46f4de2e4236 Extracting 3B
+ 46f4de2e4236 Extracting 3B
+ 46f4de2e4236 Extracting 4B
+ 46f4de2e4236 Extracting 4B
+ 46f4de2e4236 Extracting 4B
+ 46f4de2e4236 Extracting 4B
+ 46f4de2e4236 Extracting 4B
+ 46f4de2e4236 Extracting 4B
+ 46f4de2e4236 Extracting 4B
+ 46f4de2e4236 Extracting 4B
+ 46f4de2e4236 Extracting 4B
+ 46f4de2e4236 Extracting 4B
+ 46f4de2e4236 Extracting 5B
+ 46f4de2e4236 Extracting 5B
+ 46f4de2e4236 Extracting 5B
+ 46f4de2e4236 Extracting 5B
+ 46f4de2e4236 Extracting 5B
+ 46f4de2e4236 Extracting 5B
+ 46f4de2e4236 Extracting 5B
+ 46f4de2e4236 Extracting 5B
+ 46f4de2e4236 Extracting 5B
+ 46f4de2e4236 Extracting 5B
+ 46f4de2e4236 Extracting 6B
+ 46f4de2e4236 Extracting 6B
+ 4f4fb700ef54 Pull complete 0B
+ 9d1f594c66dc Pull complete 0B
+ e5604524ac8c Pull complete 0B
+ 46f4de2e4236 Pull complete 0B
+ Image opensearchproject/opensearch:3.9.0 Pulled 
+ Network docker_services_cli_default Creating 
+ Network docker_services_cli_default Created 
+ Container docker_services_cli-opensearch-1 Creating 
+ Container docker_services_cli-redis-1 Creating 
+ Container docker_services_cli-rabbitmq-1 Creating 
+ Container docker_services_cli-postgresql-1 Creating 
+ Container docker_services_cli-postgresql-1 Created 
+ Container docker_services_cli-redis-1 Created 
+ Container docker_services_cli-opensearch-1 Created 
+ Container docker_services_cli-rabbitmq-1 Created 
+ Container docker_services_cli-rabbitmq-1 Starting 
+ Container docker_services_cli-postgresql-1 Starting 
+ Container docker_services_cli-opensearch-1 Starting 
+ Container docker_services_cli-redis-1 Starting 
+ Container docker_services_cli-redis-1 Started 
+ Container docker_services_cli-rabbitmq-1 Started 
+ Container docker_services_cli-opensearch-1 Started 
+ Container docker_services_cli-postgresql-1 Started 
+============================= test session starts ==============================
+platform linux -- Python 3.14.10, pytest-8.4.2, pluggy-1.7.0
+rootdir: /home/runner/work/invenio-testrig-client/invenio-testrig-client/workdir/tests/invenio-users-resources/patched
+configfile: pyproject.toml
+testpaths: tests, invenio_users_resources
+plugins: pydocstyle-2.4.0, platformdirs-4.14.8, isort-4.0.0, black-0.6.0, cov-7.1.0, flask-1.3.0, pycodestyle-2.5.0, github-actions-annotate-failures-0.4.2, invenio-4.1.0
+collected 417 items
+
+tests/administration/__init__.py ...                                     [  0%]
+tests/administration/domains.py ...                                      [  1%]
+tests/administration/records.py ...                                      [  2%]
+tests/administration/users.py ...                                        [  2%]
+tests/conftest.py ...                                                    [  3%]
+tests/resources/test_resources_domains.py ............                   [  6%]
+tests/resources/test_resources_groups.py .........                       [  8%]
+tests/resources/test_resources_users.py ............................     [ 15%]
+tests/services/test_generators.py ....                                   [ 16%]
+tests/services/test_results.py ........                                  [ 18%]
+tests/services/test_schemas.py ....                                      [ 19%]
+tests/services/test_service_groups.py ........................           [ 24%]
+tests/services/test_service_tasks_domains.py ....                        [ 25%]
+tests/services/users/test_service_users.py ............................. [ 32%]
+.......................................................................  [ 49%]
+tests/services/users/test_user_moderation.py .......                     [ 51%]
+tests/test_invenio_users_resources.py ....                               [ 52%]
+tests/test_notifications.py ....                                         [ 53%]
+tests/test_user_roles_admin.py .....                                     [ 54%]
+invenio_users_resources/__init__.py ...                                  [ 55%]
+invenio_users_resources/config.py ...                                    [ 56%]
+invenio_users_resources/entity_resolvers.py ...                          [ 56%]
+invenio_users_resources/ext.py ...                                       [ 57%]
+invenio_users_resources/forms.py ...                                     [ 58%]
+invenio_users_resources/models.py ...                                    [ 58%]
+invenio_users_resources/notifications/__init__.py ...                    [ 59%]
+invenio_users_resources/notifications/filters.py ...                     [ 60%]
+invenio_users_resources/notifications/generators.py ...                  [ 61%]
+invenio_users_resources/permissions.py ...                               [ 61%]
+invenio_users_resources/proxies.py ...                                   [ 62%]
+invenio_users_resources/records/__init__.py ...                          [ 63%]
+invenio_users_resources/records/api.py ...                               [ 64%]
+invenio_users_resources/records/dumpers/__init__.py ...                  [ 64%]
+invenio_users_resources/records/dumpers/email.py ...                     [ 65%]
+invenio_users_resources/records/hooks.py ...                             [ 66%]
+invenio_users_resources/records/mappings/__init__.py ...                 [ 66%]
+invenio_users_resources/records/mappings/os-v1/__init__.py ...           [ 67%]
+invenio_users_resources/records/mappings/os-v2/__init__.py ...           [ 68%]
+invenio_users_resources/records/mappings/v7/__init__.py ...              [ 69%]
+invenio_users_resources/records/models.py ...                            [ 69%]
+invenio_users_resources/records/systemfields/__init__.py ...             [ 70%]
+invenio_users_resources/resources/__init__.py ...                        [ 71%]
+invenio_users_resources/resources/domains/__init__.py ...                [ 71%]
+invenio_users_resources/resources/domains/config.py ...                  [ 72%]
+invenio_users_resources/resources/domains/resource.py ...                [ 73%]
+invenio_users_resources/resources/groups/__init__.py ...                 [ 74%]
+invenio_users_resources/resources/groups/config.py ...                   [ 74%]
+invenio_users_resources/resources/groups/errors.py ...                   [ 75%]
+invenio_users_resources/resources/groups/resource.py ...                 [ 76%]
+invenio_users_resources/resources/users/__init__.py ...                  [ 76%]
+invenio_users_resources/resources/users/config.py ...                    [ 77%]
+invenio_users_resources/resources/users/errors.py ...                    [ 78%]
+invenio_users_resources/resources/users/resource.py ...                  [ 79%]
+invenio_users_resources/services/__init__.py ...                         [ 79%]
+invenio_users_resources/services/common.py ...                           [ 80%]
+invenio_users_resources/services/domains/__init__.py ...                 [ 81%]
+invenio_users_resources/services/domains/components.py ...               [ 82%]
+invenio_users_resources/services/domains/config.py ...                   [ 82%]
+invenio_users_resources/services/domains/facets.py ...                   [ 83%]
+invenio_users_resources/services/domains/service.py ...                  [ 84%]
+invenio_users_resources/services/domains/tasks.py ...                    [ 84%]
+invenio_users_resources/services/generators.py ...                       [ 85%]
+invenio_users_resources/services/groups/__init__.py ...                  [ 86%]
+invenio_users_resources/services/groups/config.py ...                    [ 87%]
+invenio_users_resources/services/groups/facets.py ...                    [ 87%]
+invenio_users_resources/services/groups/results.py ...                   [ 88%]
+invenio_users_resources/services/groups/service.py ...                   [ 89%]
+invenio_users_resources/services/groups/tasks.py ...                     [ 89%]
+invenio_users_resources/services/params.py ...                           [ 90%]
+invenio_users_resources/services/permissions.py ...                      [ 91%]
+invenio_users_resources/services/results.py ...                          [ 92%]
+invenio_users_resources/services/schemas.py ...                          [ 92%]
+invenio_users_resources/services/users/__init__.py ...                   [ 93%]
+invenio_users_resources/services/users/config.py ...                     [ 94%]
+invenio_users_resources/services/users/facets.py ...                     [ 94%]
+invenio_users_resources/services/users/lock.py ...                       [ 95%]
+invenio_users_resources/services/users/results.py ...                    [ 96%]
+invenio_users_resources/services/users/search_params.py ...              [ 97%]
+invenio_users_resources/services/users/service.py ...                    [ 97%]
+invenio_users_resources/services/users/tasks.py ...                      [ 98%]
+invenio_users_resources/utils.py ...                                     [ 99%]
+invenio_users_resources/views.py ...                                     [100%]
+
+- generated xml file: /home/runner/work/invenio-testrig-client/invenio-testrig-client/workdir/artifacts/invenio-users-resources/patched_junit.xml -
+================================ tests coverage ================================
+_______________ coverage: platform linux, python 3.14.10-final-0 _______________
+
+Name                                                         Stmts   Miss  Cover   Missing
+------------------------------------------------------------------------------------------
+invenio_users_resources/__init__.py                              2      0   100%
+invenio_users_resources/config.py                               39      0   100%
+invenio_users_resources/entity_resolvers.py                     86     48    44%   31-40, 44-50, 54, 58, 62-63, 67-91, 103-104, 108, 112, 116, 120, 129-133, 137-142, 146-147, 157, 170-171, 175, 179, 183, 187
+invenio_users_resources/ext.py                                  64      5    92%   111-114, 122
+invenio_users_resources/forms.py                                14      5    64%   25-27, 33-34
+invenio_users_resources/models.py                               10      4    60%   16, 20, 24, 34
+invenio_users_resources/notifications/__init__.py                0      0   100%
+invenio_users_resources/notifications/filters.py                11      1    91%   18
+invenio_users_resources/notifications/generators.py             37     15    59%   20, 42, 46-48, 56-57, 62-63, 71-72, 75-80
+invenio_users_resources/permissions.py                           3      0   100%
+invenio_users_resources/proxies.py                              12      0   100%
+invenio_users_resources/records/__init__.py                      2      0   100%
+invenio_users_resources/records/api.py                         395     31    92%   88, 92, 101, 107, 146, 155, 157, 260-264, 285-286, 295, 302, 309, 316, 329-330, 334-335, 376, 447, 519, 556-564, 586, 600
+invenio_users_resources/records/dumpers/__init__.py              2      0   100%
+invenio_users_resources/records/dumpers/email.py                15      0   100%
+invenio_users_resources/records/hooks.py                        57     27    53%   18-25, 44-51, 54-61, 85, 90, 94, 100
+invenio_users_resources/records/mappings/__init__.py             0      0   100%
+invenio_users_resources/records/mappings/os-v1/__init__.py       0      0   100%
+invenio_users_resources/records/mappings/os-v2/__init__.py       0      0   100%
+invenio_users_resources/records/mappings/v7/__init__.py          0      0   100%
+invenio_users_resources/records/models.py                       98      6    94%   50, 81, 86, 179-181
+invenio_users_resources/records/systemfields/__init__.py        76      0   100%
+invenio_users_resources/resources/__init__.py                    4      0   100%
+invenio_users_resources/resources/domains/__init__.py            3      0   100%
+invenio_users_resources/resources/domains/config.py             11      0   100%
+invenio_users_resources/resources/domains/resource.py            6      0   100%
+invenio_users_resources/resources/groups/__init__.py             3      0   100%
+invenio_users_resources/resources/groups/config.py              24      0   100%
+invenio_users_resources/resources/groups/errors.py               8      0   100%
+invenio_users_resources/resources/groups/resource.py            39      1    97%   80
+invenio_users_resources/resources/users/__init__.py              3      0   100%
+invenio_users_resources/resources/users/config.py               25      0   100%
+invenio_users_resources/resources/users/errors.py                4      0   100%
+invenio_users_resources/resources/users/resource.py            106      8    92%   47, 80, 87-92, 212-216, 230-234
+invenio_users_resources/services/__init__.py                     4      0   100%
+invenio_users_resources/services/common.py                      13      0   100%
+invenio_users_resources/services/domains/__init__.py             3      0   100%
+invenio_users_resources/services/domains/components.py          27      6    78%   45-54
+invenio_users_resources/services/domains/config.py              27      0   100%
+invenio_users_resources/services/domains/facets.py               7      0   100%
+invenio_users_resources/services/domains/service.py              8      0   100%
+invenio_users_resources/services/domains/tasks.py               61     15    75%   20-25, 31-36, 66-68
+invenio_users_resources/services/generators.py                 149     13    91%   45, 62-67, 94, 103, 190, 205, 230, 281, 306
+invenio_users_resources/services/groups/__init__.py              3      0   100%
+invenio_users_resources/services/groups/config.py               32      0   100%
+invenio_users_resources/services/groups/facets.py                3      0   100%
+invenio_users_resources/services/groups/results.py              57      4    93%   34, 54, 72, 78
+invenio_users_resources/services/groups/service.py              74     12    84%   40-41, 46-47, 74-75, 99-100, 156, 162-166
+invenio_users_resources/services/groups/tasks.py                21      8    62%   22-23, 29-34
+invenio_users_resources/services/params.py                       9      0   100%
+invenio_users_resources/services/permissions.py                 37      0   100%
+invenio_users_resources/services/results.py                     26      0   100%
+invenio_users_resources/services/schemas.py                    158     10    94%   235-238, 246, 249, 252, 295, 307, 317
+invenio_users_resources/services/users/__init__.py               3      0   100%
+invenio_users_resources/services/users/config.py                60      4    93%   70-73
+invenio_users_resources/services/users/facets.py                 8      0   100%
+invenio_users_resources/services/users/lock.py                  11      0   100%
+invenio_users_resources/services/users/results.py               93      9    90%   15, 21-23, 33, 83, 87, 124, 130
+invenio_users_resources/services/users/search_params.py         23      8    65%   32-50
+invenio_users_resources/services/users/service.py              228     13    94%   150-151, 160, 166-168, 180, 357, 386, 410, 433, 445, 459
+invenio_users_resources/services/users/tasks.py                 54     10    81%   51-52, 58-63, 103-108
+invenio_users_resources/utils.py                                16      4    75%   20, 25, 29-30
+invenio_users_resources/views.py                                11      0   100%
+------------------------------------------------------------------------------------------
+TOTAL                                                         2385    267    89%
+============================= 417 passed in 36.63s =============================
+ Container docker_services_cli-opensearch-1 Stopping 
+ Container docker_services_cli-redis-1 Stopping 
+ Container docker_services_cli-rabbitmq-1 Stopping 
+ Container docker_services_cli-postgresql-1 Stopping 
+ Container docker_services_cli-redis-1 Stopped 
+ Container docker_services_cli-redis-1 Removing 
+ Container docker_services_cli-redis-1 Removed 
+ Container docker_services_cli-postgresql-1 Stopped 
+ Container docker_services_cli-postgresql-1 Removing 
+ Container docker_services_cli-postgresql-1 Removed 
+ Container docker_services_cli-opensearch-1 Stopped 
+ Container docker_services_cli-opensearch-1 Removing 
+ Container docker_services_cli-opensearch-1 Removed 
+ Container docker_services_cli-rabbitmq-1 Stopped 
+ Container docker_services_cli-rabbitmq-1 Removing 
+ Container docker_services_cli-rabbitmq-1 Removed 
+ Network docker_services_cli_default Removing 
+ Network docker_services_cli_default Removed 

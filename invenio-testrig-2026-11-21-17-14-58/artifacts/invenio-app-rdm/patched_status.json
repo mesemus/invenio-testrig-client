@@ -1,0 +1,182 @@
+{
+  "dependencies": [
+    {
+      "github_entry": {
+        "_extra": {},
+        "default_branch": null,
+        "exclude": [
+          "invenio-xrootd",
+          "invenio-swh"
+        ],
+        "extras": [
+          "tests",
+          "opensearch2",
+          "s3",
+          "devs",
+          "s3fs",
+          "oaipmh",
+          "rdf",
+          "sparql",
+          "postgresql",
+          "admin"
+        ],
+        "freeze": [
+          "setuptools<82.0.0"
+        ],
+        "include": [
+          "invenio-.*",
+          "pytest-invenio",
+          "citeproc-py-styles"
+        ],
+        "install": [],
+        "org": "inveniosoftware",
+        "package_map": {},
+        "slow_packages": {
+          "invenio-rdm-records": [
+            "tests/resources/test_iiif_image_api.py",
+            "tests/resources/test_resources_review.py",
+            "tests/services/test_rdm_service.py"
+          ]
+        },
+        "test": [
+          "./run-tests.sh"
+        ]
+      },
+      "patched_reference": {
+        "actual_version": "4.1.0",
+        "base": null,
+        "branch": null,
+        "commit": "4c41ecc1b7bd4067b5428d3bf8f086438e232613",
+        "commits_from_version": [],
+        "org": "inveniosoftware",
+        "package": "pytest-invenio",
+        "pr": null,
+        "pr_info": null,
+        "repo": "pytest-invenio"
+      },
+      "patches": [
+        {
+          "actual_version": null,
+          "base": null,
+          "branch": null,
+          "commit": "4d7ed09c9f808b2b4c263e4bc65e5e6cfde85390",
+          "commits_from_version": null,
+          "org": "inveniosoftware",
+          "package": "pytest-invenio",
+          "pr": 148,
+          "pr_info": {
+            "commits": [
+              "4d7ed09c9f808b2b4c263e4bc65e5e6cfde85390"
+            ],
+            "source_branch": "fix/failing-doctests",
+            "source_org": "mesemus",
+            "source_repo": "pytest-invenio"
+          },
+          "repo": "pytest-invenio",
+          "versions": []
+        }
+      ],
+      "reference": {
+        "actual_version": "4.1.0",
+        "base": null,
+        "branch": "v4.1.0",
+        "commit": "4c41ecc1b7bd4067b5428d3bf8f086438e232613",
+        "commits_from_version": [],
+        "org": "inveniosoftware",
+        "package": "pytest-invenio",
+        "pr": null,
+        "pr_info": null,
+        "repo": "pytest-invenio"
+      },
+      "unpatched_reference": {
+        "actual_version": "4.1.0",
+        "base": null,
+        "branch": null,
+        "commit": "4c41ecc1b7bd4067b5428d3bf8f086438e232613",
+        "commits_from_version": [],
+        "org": "inveniosoftware",
+        "package": "pytest-invenio",
+        "pr": null,
+        "pr_info": null,
+        "repo": "pytest-invenio"
+      }
+    }
+  ],
+  "package": {
+    "github_entry": {
+      "_extra": {},
+      "default_branch": null,
+      "exclude": [
+        "invenio-xrootd",
+        "invenio-swh"
+      ],
+      "extras": [
+        "tests",
+        "opensearch2",
+        "s3",
+        "devs",
+        "s3fs",
+        "oaipmh",
+        "rdf",
+        "sparql",
+        "postgresql",
+        "admin"
+      ],
+      "freeze": [
+        "setuptools<82.0.0"
+      ],
+      "include": [
+        "invenio-.*",
+        "pytest-invenio",
+        "citeproc-py-styles"
+      ],
+      "install": [],
+      "org": "inveniosoftware",
+      "package_map": {},
+      "slow_packages": {
+        "invenio-rdm-records": [
+          "tests/resources/test_iiif_image_api.py",
+          "tests/resources/test_resources_review.py",
+          "tests/services/test_rdm_service.py"
+        ]
+      },
+      "test": [
+        "./run-tests.sh"
+      ]
+    },
+    "patched_reference": null,
+    "patches": [],
+    "reference": {
+      "actual_version": "15.0.0b7.dev0",
+      "base": null,
+      "branch": "v15.0.0b7.dev0",
+      "commit": "9fdc5d9f806abf9d7bc24975b84b04663de6e223",
+      "commits_from_version": [],
+      "org": "inveniosoftware",
+      "package": "invenio-app-rdm",
+      "pr": null,
+      "pr_info": null,
+      "repo": "invenio-app-rdm"
+    },
+    "unpatched_reference": {
+      "actual_version": "15.0.0b7.dev0",
+      "base": null,
+      "branch": null,
+      "commit": "0a78491d5cbea7dc8565a10bfe49f90b8c328615",
+      "commits_from_version": [
+        "a5eaef81c5201fecdfe90d98b57a8fb8100e73ca",
+        "e22e92cc22a58331b9c4d780bc74df62591ead58",
+        "60c4101d27838d58767d3c6f056045baf62bdc04",
+        "e9bb3371ebaf1bcd4277420007cf09ca016f50bf",
+        "ee95bc896803f8f6e8af521873dacf4a42062d22",
+        "0a78491d5cbea7dc8565a10bfe49f90b8c328615"
+      ],
+      "org": "inveniosoftware",
+      "package": "invenio-app-rdm",
+      "pr": null,
+      "pr_info": null,
+      "repo": "invenio-app-rdm"
+    }
+  },
+  "status": "success"
+}

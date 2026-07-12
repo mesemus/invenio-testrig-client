@@ -1,0 +1,202 @@
+[
+  {
+    "hash": "82ca654b",
+    "message": "release: v32.4.0"
+  },
+  {
+    "hash": "c9c287b0",
+    "message": "feat: add support for additional file formats when importing authors and contributors"
+  },
+  {
+    "hash": "540f6f94",
+    "message": "fix(uppy): support removal of non-uploaded files"
+  },
+  {
+    "hash": "6fa6529f",
+    "message": "fix(pids): free external DOI when removed on publish"
+  },
+  {
+    "hash": "55f040dd",
+    "message": "fix: enforce per-user quota cap on increase"
+  },
+  {
+    "hash": "67cf4573",
+    "message": "feat(deposit-ui): pass icon to deserialized errors"
+  },
+  {
+    "hash": "4c794b75",
+    "message": "fix(languages): update title for lang `uig`"
+  },
+  {
+    "hash": "a8381cfc",
+    "message": "fix: flatten transparent pdf page on white to prevent black JPEG output"
+  },
+  {
+    "hash": "e6bb665b",
+    "message": "feat(deposit-ui): allow overriding file items"
+  },
+  {
+    "hash": "b70e17b0",
+    "message": "fix(iiif): reduce memory consumption for PDFs"
+  },
+  {
+    "hash": "54f3de65",
+    "message": "fix: strip html from thesis not only sanitize unicode"
+  },
+  {
+    "hash": "3c204380",
+    "message": "fix(github): resolve badge DOI in 1 query"
+  },
+  {
+    "hash": "db227098",
+    "message": "refactor(schemas): initialize schemas in the service constructors"
+  },
+  {
+    "hash": "b45679ec",
+    "message": "refactor(schema): optimize RDM record schemas for reusability"
+  },
+  {
+    "hash": "60f34b09",
+    "message": "fix(performance): replace `deepcopy()` in UI serialization"
+  },
+  {
+    "hash": "8809730d",
+    "message": "fix(tombstone): avoid side effects from shallow copies in removal reason"
+  },
+  {
+    "hash": "f7ff663c",
+    "message": "feat(utils): add simplified deepcopy implementations to utils"
+  },
+  {
+    "hash": "31ef09ed",
+    "message": "deposit: update the text of disabled new version btn"
+  },
+  {
+    "hash": "a34a1800",
+    "message": "chore: replace pipenv by uv"
+  },
+  {
+    "hash": "a2cf3726",
+    "message": "feat(notifications): add NOTIFICATIONS_SHOW_EMOJIS config option"
+  },
+  {
+    "hash": "89ec77de",
+    "message": "change(components): preserve internal note"
+  },
+  {
+    "hash": "ddaebdbe",
+    "message": "fix(file-modification): handle validation errors"
+  },
+  {
+    "hash": "ae8b840f",
+    "message": "fix(deposit-ui): enforce file count and storage quotas in Uppy uploader"
+  },
+  {
+    "hash": "c8e26b6e",
+    "message": "fix(uppy): keep failed uploads in dashboard on complete"
+  },
+  {
+    "hash": "2da26373",
+    "message": "fix(creatibutors): only accept txt files"
+  },
+  {
+    "hash": "c2ceb571",
+    "message": "fix(CreatibutorsFieldItem): Trigger update via context"
+  },
+  {
+    "hash": "973eedea",
+    "message": "fix(CreatibutorsInlinePanel): Move props to CreatibutorsItemContext"
+  },
+  {
+    "hash": "534cfbad",
+    "message": "fix(CreatibutorsFileModal): Simplify components and CSS rendering"
+  },
+  {
+    "hash": "e4f065de",
+    "message": "fix(CreatibutorsInlinePanel): Optimize re-render condition"
+  },
+  {
+    "hash": "bb9853a0",
+    "message": "feat(Creatibutors): add inline scrolling and file importing in deposit"
+  },
+  {
+    "hash": "4e5de06f",
+    "message": "feat(ui): make NewVersionButton overridable"
+  },
+  {
+    "hash": "b5c2cb23",
+    "message": "fix(entity_resolvers): Fix ghost_record for drafts on submission"
+  },
+  {
+    "hash": "965b1e17",
+    "message": "iiif: fix: logging without reserved filename key"
+  },
+  {
+    "hash": "110e68ae",
+    "message": "fix(ui): use SECURITY_LOGIN_URL in restricted files login link"
+  },
+  {
+    "hash": "28e80a32",
+    "message": "fix(requests): expose record version in expanded topic"
+  },
+  {
+    "hash": "673b9ef4",
+    "message": "feat(auditlog): Add audit logs for file create/delete"
+  },
+  {
+    "hash": "8b43f7ef",
+    "message": "release: v32.3.3"
+  },
+  {
+    "hash": "8a448002",
+    "message": "fix(crossref): check for duplicate DOIs and report errors on pids.doi"
+  },
+  {
+    "hash": "1c043d74",
+    "message": "fix: default Crossref deposits to the test system"
+  },
+  {
+    "hash": "120900af",
+    "message": "fix: let CROSSREF_TEST_MODE choose the deposit endpoint"
+  },
+  {
+    "hash": "e1a7500a",
+    "message": "fix: deposit a record's files with its Crossref metadata"
+  },
+  {
+    "hash": "8cfb4254",
+    "message": "fix(serializers): get correctly translated rights"
+  },
+  {
+    "hash": "ba51e8f4",
+    "message": "release: v32.2.2"
+  },
+  {
+    "hash": "fa64ce06",
+    "message": "fix(errors): fix incorrect constructor call"
+  },
+  {
+    "hash": "d64c9d4d",
+    "message": "fix(iiif): handle DelegateError for unsupported file types"
+  },
+  {
+    "hash": "44c4fc43",
+    "message": "fix(signposting): fix custom licenses links percent-encoding (#2435)"
+  },
+  {
+    "hash": "5dd38520",
+    "message": "\ud83d\udce6 release: v32.3.1"
+  },
+  {
+    "hash": "a7f41595",
+    "message": "fix(custom-fields): add correct landing page search attribute"
+  },
+  {
+    "hash": "3aebbca7",
+    "message": "\ud83d\udce6 release: v32.3.0"
+  },
+  {
+    "hash": "c1100d73",
+    "message": "fix(quota): hide labels in narrow bars"
+  }
+]
