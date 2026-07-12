@@ -1,0 +1,202 @@
+[
+  {
+    "hash": "9bec43d5",
+    "message": "fix(creatibutors): add selector for modal close button"
+  },
+  {
+    "hash": "8a772bef",
+    "message": "release: v15.0.0b2.dev0"
+  },
+  {
+    "hash": "df6e4555",
+    "message": "fix(creatibuors.html): normalize search and clean-up CSS classes"
+  },
+  {
+    "hash": "6c81ba58",
+    "message": "feat(Creatibutors): landing-page show-all modal with searching   * On the record landing page, long author/contributor lists show \"et al.\" with a searchable modal instead of rendering every name inline.   * Pass creatibutors_inline_list_threshold and creatibutors_render_batch_size from deposits.py into the deposit form"
+  },
+  {
+    "hash": "59c4978e",
+    "message": "fix: unify command with documentation"
+  },
+  {
+    "hash": "7c6a6311",
+    "message": "fix: adding server default for system_created"
+  },
+  {
+    "hash": "da6e1a74",
+    "message": "fix: migration step for removal of user_id column from the transaction table"
+  },
+  {
+    "hash": "74cb8f03",
+    "message": "Apply suggestion from @yarikoptic"
+  },
+  {
+    "hash": "c3b3406a",
+    "message": "Create SECURITY.md"
+  },
+  {
+    "hash": "362aa603",
+    "message": "files: improve external file size display"
+  },
+  {
+    "hash": "7839ba47",
+    "message": "release: v15.0.0b1.dev0"
+  },
+  {
+    "hash": "730cdb26",
+    "message": "chore(setup): migrate from setuptools to hatchling"
+  },
+  {
+    "hash": "3cc245d1",
+    "message": "fix(admin): update edit roles UI (#3502)"
+  },
+  {
+    "hash": "4e2fc9bd",
+    "message": "chore(migration): add request parent for commenting"
+  },
+  {
+    "hash": "f631eb69",
+    "message": "chore(migration): replace print with secho"
+  },
+  {
+    "hash": "0829dc24",
+    "message": "fix(admin): show clear error in View Changes modal on 403"
+  },
+  {
+    "hash": "f18b106a",
+    "message": "chore(setup): bump dependencies"
+  },
+  {
+    "hash": "3acff21a",
+    "message": "chore(git-blame): ignore the SPDX license header commit"
+  },
+  {
+    "hash": "339e3d4b",
+    "message": "chore(licenses): update license headers to use SPDX"
+  },
+  {
+    "hash": "4b1507bb",
+    "message": "chore(setup): bump dependencies"
+  },
+  {
+    "hash": "1c51a918",
+    "message": "refactor(views): Move get_record_requests to RecordCommunitiesService"
+  },
+  {
+    "hash": "6e3a62bf",
+    "message": "release: v15.0.0b0.dev0"
+  },
+  {
+    "hash": "ccdc5e68",
+    "message": "release: v14.0.0b11.dev4"
+  },
+  {
+    "hash": "992fbaf2",
+    "message": "chore(setup): bump dependencies"
+  },
+  {
+    "hash": "40b950ea",
+    "message": "feat(records): deposit form compatibility with per-record-version review requests"
+  },
+  {
+    "hash": "7fdc11a5",
+    "message": "release: v14.0.0b11.dev3"
+  },
+  {
+    "hash": "2ef77ebc",
+    "message": "chore(setup): bump dependencies"
+  },
+  {
+    "hash": "c991610a",
+    "message": "fix: corrected config variable name * replaced CONTAINER_ITEM_PREVIEWER_PREFERENCE   variable name with   PREVIEWER_CONTAINER_ITEM_PREFERENCE   inside config * the code already used PREVIEWER_*"
+  },
+  {
+    "hash": "df059a2b",
+    "message": "fix: prevent overflow of long values and links in details and sidebar"
+  },
+  {
+    "hash": "cd23c779",
+    "message": "chore: remove duplicate function definition in tests"
+  },
+  {
+    "hash": "55e9cce3",
+    "message": "chore: apply some linter fixes"
+  },
+  {
+    "hash": "bc6f2e2d",
+    "message": "chore: replace `type(...) == str` with `type(...) is str`"
+  },
+  {
+    "hash": "f0c404b0",
+    "message": "chore: fix __all__ tuple in audit_logs"
+  },
+  {
+    "hash": "a8e80750",
+    "message": "feat(users): add last login details to admin ui"
+  },
+  {
+    "hash": "e3171ad9",
+    "message": "i18n: v14 wrap missing strings"
+  },
+  {
+    "hash": "aab76c27",
+    "message": "feat(mshp-req): integrate membership request notifications"
+  },
+  {
+    "hash": "caaa0ce5",
+    "message": "\ud83d\udce6 release: v14.0.0b11.dev2"
+  },
+  {
+    "hash": "27a08d7f",
+    "message": "files: hide archive button over the size cap"
+  },
+  {
+    "hash": "51bdcf65",
+    "message": "refactor: add comment to permissions' extra params"
+  },
+  {
+    "hash": "504d054e",
+    "message": "fix: enable community owner to remove it from record"
+  },
+  {
+    "hash": "63fe8fc5",
+    "message": "release: v14.0.0b11.dev1"
+  },
+  {
+    "hash": "ac985d3b",
+    "message": "chore(setup): bump dependencies"
+  },
+  {
+    "hash": "55a60527",
+    "message": "release: v14.0.0b11.dev0"
+  },
+  {
+    "hash": "ce43f302",
+    "message": "chore(setup): bump dependencies"
+  },
+  {
+    "hash": "fe020162",
+    "message": "feat: UI support for zip content previewing"
+  },
+  {
+    "hash": "61003945",
+    "message": "fix(alembic): script for preparing migration from 13 -> 14"
+  },
+  {
+    "hash": "4b5c56dd",
+    "message": "deposits: switch to standard get syntax"
+  },
+  {
+    "hash": "1a70d527",
+    "message": "deposit: add default values for custom fields on deposit form"
+  },
+  {
+    "hash": "e9abda02",
+    "message": "fix(profiler): remove CSP headers for profiler result pages"
+  },
+  {
+    "hash": "1069cd30",
+    "message": "fix(profiler): register menu item for the multi-profiler"
+  }
+]

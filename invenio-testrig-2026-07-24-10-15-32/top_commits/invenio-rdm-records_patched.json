@@ -1,0 +1,202 @@
+[
+  {
+    "hash": "68d8023f",
+    "message": "bump commonmeta version"
+  },
+  {
+    "hash": "1377c58c",
+    "message": "add test"
+  },
+  {
+    "hash": "b1809083",
+    "message": "fix: add IsVersionOf relations to concept doi in crossref serializer"
+  },
+  {
+    "hash": "ebdb3158",
+    "message": "mappings: disable draft geometry doc values"
+  },
+  {
+    "hash": "925bad39",
+    "message": "fix(awards): drop organizations from funding award relation"
+  },
+  {
+    "hash": "1e8b9ac6",
+    "message": "fix(creatibutors): only accept txt files"
+  },
+  {
+    "hash": "7caf8e87",
+    "message": "release: v34.0.0"
+  },
+  {
+    "hash": "89a0289b",
+    "message": "fix(CreatibutorsFieldItem): Trigger update via context"
+  },
+  {
+    "hash": "7c0898f2",
+    "message": "fix(CreatibutorsInlinePanel): Move props to CreatibutorsItemContext"
+  },
+  {
+    "hash": "47c783eb",
+    "message": "fix(CreatibutorsFileModal): Simplify components and CSS rendering"
+  },
+  {
+    "hash": "ebd21143",
+    "message": "fix(CreatibutorsInlinePanel): Optimize re-render condition"
+  },
+  {
+    "hash": "0ee8ffb9",
+    "message": "feat(Creatibutors): add inline scrolling and file importing in deposit"
+  },
+  {
+    "hash": "44813dbb",
+    "message": "fix: fixed isParentAlreadyPublished not working on /new"
+  },
+  {
+    "hash": "30e0237a",
+    "message": "fix(alembic): alter index safely"
+  },
+  {
+    "hash": "fb953b29",
+    "message": "release: v33.3.0"
+  },
+  {
+    "hash": "295f5f19",
+    "message": "feat: add support for crossref schema 5.5 via commonmeta-py"
+  },
+  {
+    "hash": "f44206a1",
+    "message": "fix(iiif): add handlers for more possible IIIF errors"
+  },
+  {
+    "hash": "50f9aa39",
+    "message": "fix(iiif): validate expected shape of identifiers"
+  },
+  {
+    "hash": "1ebca19a",
+    "message": "fix(tests): add tests for invalid identifiers in IIIF endpoints"
+  },
+  {
+    "hash": "916319f9",
+    "message": "release: v33.2.0"
+  },
+  {
+    "hash": "69166b71",
+    "message": "feat(ui): make NewVersionButton overridable"
+  },
+  {
+    "hash": "04cd3161",
+    "message": "fix(citation): use harvard-cite-them-right and setup _extras in tests"
+  },
+  {
+    "hash": "93ef5382",
+    "message": "tests: update citation string for csl 1.0.2"
+  },
+  {
+    "hash": "994313e7",
+    "message": "fix(entity_resolvers): Fix ghost_record for drafts on submission"
+  },
+  {
+    "hash": "fa06369d",
+    "message": "fix(checks): resolve section labels"
+  },
+  {
+    "hash": "d1cb249d",
+    "message": "fix(checks): Removed redundant check"
+  },
+  {
+    "hash": "f7239d11",
+    "message": "release: v33.1.0"
+  },
+  {
+    "hash": "87075d4a",
+    "message": "chore(setup): migrate from setuptools to hatchling"
+  },
+  {
+    "hash": "ceabc4c1",
+    "message": "chore(cleanup): remove outdated and unnecessary files"
+  },
+  {
+    "hash": "e9df0b6b",
+    "message": "chore(format): reformat with black"
+  },
+  {
+    "hash": "201bdaeb",
+    "message": "iiif: fix: logging without reserved filename key"
+  },
+  {
+    "hash": "290ecc45",
+    "message": "fix(ui): use SECURITY_LOGIN_URL in restricted files login link"
+  },
+  {
+    "hash": "be6cd2c8",
+    "message": "fix(requests): expose record version in expanded topic"
+  },
+  {
+    "hash": "fb060cc1",
+    "message": "feat(auditlog): Add audit logs for file create/delete"
+  },
+  {
+    "hash": "2a7e52be",
+    "message": "release: v33.0.0"
+  },
+  {
+    "hash": "b41597b9",
+    "message": "chore(setup): bump dependencies"
+  },
+  {
+    "hash": "6094a4d6",
+    "message": "release: v32.0.1"
+  },
+  {
+    "hash": "2f5090c8",
+    "message": "fix(get_record_requests): allow anonymous users to access landing page"
+  },
+  {
+    "hash": "06f2d59b",
+    "message": "chore(git-blame): ignore the SPDX license header commit"
+  },
+  {
+    "hash": "ddc1072d",
+    "message": "chore(licenses): update license headers to use SPDX"
+  },
+  {
+    "hash": "c72c2953",
+    "message": "release: v32.0.0"
+  },
+  {
+    "hash": "0102e529",
+    "message": "feat(RecordCommunitiesService): Add get_record_requests service method   * Moved from invenio_app_rdm/records_ui/views/records.py   * Since the function checks for permissions and also access the API layer, it should be a service method following the existing methods in this service class also accessing the communities API"
+  },
+  {
+    "hash": "f636c8e2",
+    "message": "alembic: create record_id index in rdm_parents_community   * update the CommunityRelationMixin which the RDMParentCommunity inherits from, to have `index=True` on record_id"
+  },
+  {
+    "hash": "fb1d4cc2",
+    "message": "refactor(models): Move CommunityRelationMixin from invenio-communities"
+  },
+  {
+    "hash": "fe1ed1cd",
+    "message": "fix(CreatibutorsField): Mount CreatibutorsModal only when opened   * This change fixes the Creator/Contributor section in the deposit form where every CreatibutorsFieldItem unconditionally rendered a CreatibutorsModal, and inside each modal the Formik instance with enableReinitialize and a Yup schema instantiated at class-definition time for each author/creator, which led to every stroke triggering a redraw and re-mount for all the modals"
+  },
+  {
+    "hash": "3871cfac",
+    "message": "fix(signposting): serialize typed link w/ profile for described_by and item"
+  },
+  {
+    "hash": "535f41e8",
+    "message": "add test"
+  },
+  {
+    "hash": "998e53bd",
+    "message": "fix malformed link header"
+  },
+  {
+    "hash": "21c9d3c0",
+    "message": "release: v31.0.0"
+  },
+  {
+    "hash": "9752e82f",
+    "message": "feat(reviews): per-record-version unit tests"
+  }
+]

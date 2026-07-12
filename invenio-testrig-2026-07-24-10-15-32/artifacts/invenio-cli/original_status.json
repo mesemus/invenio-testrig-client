@@ -1,0 +1,91 @@
+{
+  "dependencies": [],
+  "package": {
+    "github_entry": {
+      "_extra": {},
+      "default_branch": null,
+      "exclude": [
+        "invenio-xrootd",
+        "invenio-swh"
+      ],
+      "extras": [
+        "tests",
+        "opensearch2",
+        "s3",
+        "devs",
+        "s3fs",
+        "oaipmh",
+        "rdf",
+        "sparql",
+        "postgresql",
+        "admin"
+      ],
+      "freeze": [
+        "setuptools<82.0.0"
+      ],
+      "include": [
+        "invenio-.*",
+        "pytest-invenio",
+        "citeproc-py-styles"
+      ],
+      "install": [],
+      "org": "inveniosoftware",
+      "package_map": {},
+      "slow_packages": {
+        "invenio-rdm-records": [
+          "tests/resources/test_iiif_image_api.py",
+          "tests/resources/test_resources_review.py",
+          "tests/services/test_rdm_service.py"
+        ]
+      },
+      "test": [
+        "./run-tests.sh"
+      ]
+    },
+    "patched_reference": null,
+    "patches": [],
+    "reference": {
+      "actual_version": "1.11.0",
+      "base": null,
+      "branch": "v1.11.0",
+      "commit": "fa5ee571153d31184963f97e400b4b4bc51fa812",
+      "commits_from_version": [],
+      "org": "inveniosoftware",
+      "package": "invenio-cli",
+      "pr": null,
+      "pr_info": null,
+      "repo": "invenio-cli"
+    },
+    "unpatched_reference": {
+      "actual_version": "1.11.0",
+      "base": null,
+      "branch": null,
+      "commit": "0db351d87738eac4367136fb5515b29d003a1b7c",
+      "commits_from_version": [
+        "47ea8cad060c37d61a469b2a9b1667854777f5df",
+        "d76ea66462f63905015007370be09555d156a2b5",
+        "52d3dd7cca8b872e4f746e8c758aaa8e2c9c7f09",
+        "c7d746870eb513c1403af1043e23ae2bf9e33e95",
+        "5dac87564926b50ab48d52b78f39d6ec1e3227b3",
+        "f292d479e9f3fc092087ca0cfffabea8b334e289",
+        "8d511c2b8c7ad5e45057d1b40dec13a36e678631",
+        "182a17eb83d7f352e83f0df5efdcab405da156df",
+        "c06298f829a48120a015ca2e06f8c7d8e0737d55",
+        "696402d7cf10fc31048ba978cd9709e8b1746dd6",
+        "c8a5d458cbb1dfab04a846913e182cdca053de2c",
+        "4cc3cdf02dc52772f6d3274b06a9bc7e89a76967",
+        "643abadeb63d5b0fed6f261e623c851aaa05a150",
+        "acb94cd78ecf54cef79eadf7d1aba73ca946af06",
+        "dd24842fd5439179f97163bbf2670bb8b0a9355d",
+        "d03c1493769c95021cafd489c8a858c9c8509167",
+        "0db351d87738eac4367136fb5515b29d003a1b7c"
+      ],
+      "org": "inveniosoftware",
+      "package": "invenio-cli",
+      "pr": null,
+      "pr_info": null,
+      "repo": "invenio-cli"
+    }
+  },
+  "status": "success"
+}

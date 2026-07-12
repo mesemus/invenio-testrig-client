@@ -1,0 +1,202 @@
+[
+  {
+    "hash": "026d02c",
+    "message": "\ud83d\udce6 release: v14.2.0"
+  },
+  {
+    "hash": "b42e8a1",
+    "message": "feat(ror): updated datastream & mappings to include website & domains"
+  },
+  {
+    "hash": "a255ffd",
+    "message": "feat(awards): add grant DOI identifier in cordis datastream"
+  },
+  {
+    "hash": "0447592",
+    "message": "feat(awards): add all awards fields in cordis datastream"
+  },
+  {
+    "hash": "acf2197",
+    "message": "feat(awards): default PIC mapping source to published Zenodo DOI"
+  },
+  {
+    "hash": "85c9c5f",
+    "message": "feat(awards): accept name as organizations free-text label"
+  },
+  {
+    "hash": "e32cc4b",
+    "message": "feat(awards): resolve CORDIS PICs to ROR ids on import"
+  },
+  {
+    "hash": "a9a6a1f",
+    "message": "refactor(common): extract DOI signposting helper"
+  },
+  {
+    "hash": "a5f087a",
+    "message": "feat(awards): dereference organizations against affiliations vocabulary"
+  },
+  {
+    "hash": "bdb8ba9",
+    "message": "feat(awards): add short description in cordis datastream"
+  },
+  {
+    "hash": "fdae2f5",
+    "message": "fix(datastreams): OpenAIREHTTPReader allowing to match several tar filenames"
+  },
+  {
+    "hash": "7bb26b5",
+    "message": "release: v14.1.0"
+  },
+  {
+    "hash": "bdd2ac5",
+    "message": "fix(datastreams): omit entry payload from skipped-entry logs"
+  },
+  {
+    "hash": "0ec7ccb",
+    "message": "fix(contrib): adding custom funders"
+  },
+  {
+    "hash": "94d4409",
+    "message": "chore(setup): migrate from setuptools to hatchling"
+  },
+  {
+    "hash": "90eb911",
+    "message": "chore(format): reformat with black"
+  },
+  {
+    "hash": "0b0c143",
+    "message": "jobs: configured job for inserting EDMO affiliations"
+  },
+  {
+    "hash": "59f051a",
+    "message": "release: v14.0.0"
+  },
+  {
+    "hash": "c1ac9e2",
+    "message": "chore(setup): bump dependencies"
+  },
+  {
+    "hash": "7b9f4f6",
+    "message": "chore(git-blame): ignore the SPDX license header commit"
+  },
+  {
+    "hash": "d3ccbd6",
+    "message": "chore(licenses): update license headers to use SPDX"
+  },
+  {
+    "hash": "484266c",
+    "message": "funding: make funding item button order match"
+  },
+  {
+    "hash": "783e47d",
+    "message": "fix(datastreams): fix OAIPMHReader default parameters"
+  },
+  {
+    "hash": "f45fad6",
+    "message": "release: v13.0.0"
+  },
+  {
+    "hash": "4fa8ce3",
+    "message": "chore(setup): bump dependencies"
+  },
+  {
+    "hash": "d918815",
+    "message": "fix(schema): use SanitizedUnicode for i18n_strings values"
+  },
+  {
+    "hash": "11dc770",
+    "message": "release: v12.0.0"
+  },
+  {
+    "hash": "61fb785",
+    "message": "chore(setup): bump dependencies"
+  },
+  {
+    "hash": "9ea6328",
+    "message": "release: v11.1.2"
+  },
+  {
+    "hash": "f3550cd",
+    "message": "fix(datastreams): replace f-strings in logging calls with %s formatting   * Sentry groups issues by the unformatted message template. Using f-strings causes each unique interpolated value to create a separate issue, making error tracking noisy and ungrouped."
+  },
+  {
+    "hash": "8c99659",
+    "message": "fix(datastreams): Log ORCID read errors as warnings * This will fix the issue of read errors getting logged to sentry due to wrongly being marked as errors. Because we should only mark issues as ERROR/EXCEPTION when there are bugs in the code but most read errors are due to the data from ORCID being incomplete"
+  },
+  {
+    "hash": "e20793f",
+    "message": "\ud83d\udce6 release: v11.1.1"
+  },
+  {
+    "hash": "fc20829",
+    "message": "fix(names): skip invalid ORCID entries"
+  },
+  {
+    "hash": "935a99b",
+    "message": "\ud83d\udce6 release: v11.1.0"
+  },
+  {
+    "hash": "be71648",
+    "message": "feat: added run_subtasks flag in datastream writer"
+  },
+  {
+    "hash": "8f90b75",
+    "message": "release: v11.0.1"
+  },
+  {
+    "hash": "427a06e",
+    "message": "fix(setup): register orcid names job"
+  },
+  {
+    "hash": "8655ec5",
+    "message": "service: fix read_all permission from search -> read"
+  },
+  {
+    "hash": "77db728",
+    "message": "release: v11.0.0"
+  },
+  {
+    "hash": "0d442d3",
+    "message": "change(setup): bump invenio-jobs"
+  },
+  {
+    "hash": "cbec9be",
+    "message": "jobs: registered job to import euroscivoc subjects"
+  },
+  {
+    "hash": "3ea5377",
+    "message": "awards: updated config with openaire funder prefix"
+  },
+  {
+    "hash": "08375f4",
+    "message": "fix(black): for python3.9"
+  },
+  {
+    "hash": "ac7ccf2",
+    "message": "\ud83d\udce6 release: v10.1.0"
+  },
+  {
+    "hash": "a24fed4",
+    "message": "datastream: formatting and refactor updates"
+  },
+  {
+    "hash": "c464fe4",
+    "message": "datastream: added user agent in reader http request"
+  },
+  {
+    "hash": "fb68221",
+    "message": "orcid: replaced error with warning for missing name"
+  },
+  {
+    "hash": "d56436c",
+    "message": "release: v10.0.0"
+  },
+  {
+    "hash": "48398c6",
+    "message": "refactor: context_schema instead of self.context"
+  },
+  {
+    "hash": "0aea69f",
+    "message": "refactor: deduplicate code ModePIDFieldVocabularyMixin"
+  }
+]
