@@ -1,4 +1,7 @@
 name: Run on testrig
+# The run title shows the test name when given, so automation can find its own run
+# (`invenio-testrig github --name <unique id> --non-interactive`).
+run-name: ${{ inputs.name || 'Run on testrig' }}
 
 on:
   workflow_dispatch:
